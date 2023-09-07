@@ -55,6 +55,8 @@ pipeline = create_pipeline(scaler_choice, classifier_choice)
 # Load the trained pipeline
 pipeline.fit(X_train, y_train)
 
+st.set_page_config(layout='wide') 
+
 # Define menu data
 menu_data = [
     {"label": "Home"},
