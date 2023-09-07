@@ -72,8 +72,8 @@ if menu_id == "Home":
 
     # Column 1: Image
     with col1:
-        #st.image('pic.PNG', use_column_width=False, width=600)
-        st.title("Welcome to Car Price Prediction App")
+        st.image('pic.png', use_column_width=False, width=600)
+        # st.title("Welcome to Car Price Prediction App")
 
     # Column 2: Rest of the content
     with col2:
@@ -85,8 +85,8 @@ elif menu_id == "Prediction":
 
     # Column 1: Image
     with col1:
-        #st.image('price.PNG', use_column_width=False, width=400)
-        st.title("Welcome to Car Price Prediction App")
+        st.image('price.png', use_column_width=False, width=400)
+        # st.title("Welcome to Car Price Prediction App")
 
     # Column 2: Rest of the content
     with col2:
